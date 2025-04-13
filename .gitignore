@@ -4,7 +4,7 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 #Generated files by hugo
-/public/
+# /public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
