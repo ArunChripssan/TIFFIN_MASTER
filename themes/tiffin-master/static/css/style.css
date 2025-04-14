@@ -566,10 +566,6 @@ video {
     .oman-banner__div {
         padding-top: 12rem;
     }
-
-    .oman-banner__div .container-fluid .flexing__div .banner__sub__heading {
-        padding-inline: 40px;
-    }
 }
 
 @media  screen and (max-width: 426px){
