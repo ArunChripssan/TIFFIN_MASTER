@@ -572,10 +572,10 @@ video {
     }
 }
 
-@media  screen and (max-width: 321px){
+@media  screen and (max-width: 426px){
     .oman-banner__div .container-fluid .flexing__div {
         padding: 0 2rem;
-        background: radial-gradient(rgba(0, 0, 0, 0.7) 15%, rgba(124, 108, 1, 0.2));
+        background: radial-gradient(rgba(0, 0, 0, 1.7) 15%, rgba(124, 108, 1, 0.2));
     }
 
     .oman-banner__div .container-fluid img{
@@ -583,16 +583,15 @@ video {
     }
 
     .oman-banner__div .container-fluid .flexing__div .banner__heading {
-        font-size: 40px;
-        padding-top: 60px;
+        font-size: 57px;
+        padding-top: 75px;
     }
 
     .oman-banner__div .container-fluid .flexing__div .banner__sub__heading {
-        font-size: 17px;
+        font-size: 20px;
         line-height: 30px;
         font-weight: 600;
         letter-spacing: 2px;
-        padding-inline: 0;
     }
 }
 
@@ -784,7 +783,7 @@ video {
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 426px) {
     .landing-page-logo img {
         width: 60px;
     }
@@ -859,6 +858,7 @@ video {
     align-items: center;
     padding-block-start: 100px;
     flex-direction: column;
+    padding-inline: 30px;
 }
 .landingPage .bannerSec .textContent h2{
     color: #4aec5a;
@@ -950,6 +950,7 @@ video {
     .landingPage .bannerSec .textContent {
         max-width: 600px;
         margin-inline: auto;
+        padding-inline: 25px;
     }
     .landingPage .bannerSec .branchSection {
         max-width: 600px;
@@ -968,15 +969,21 @@ video {
 }
 @media screen and (max-width: 426px) {
     .landingPage .bannerSec .textContent {
-        max-width: 395px;
+        max-width: 380px;
         margin-inline: auto;
     }
     .landingPage .bannerSec .textContent h2{
         text-align: center;
+        font-size: 42px;
+    }
+    .landingPage .bannerSec .textContent p{
+        text-align: center;
+        font-size: 18px;
     }
     .landingPage .bannerSec .branchSection {
         max-width: 600px;
         margin-inline: auto;
+        margin-top: 50px;
     }
     .landingPage .bannerSec .branchSection .card-container {
         justify-content: center;
@@ -2111,7 +2118,7 @@ video {
 
 }
 
-@media  screen and (max-width: 321px) {
+@media  screen and (max-width: 426px) {
 
     .our-menu-oman {
         padding: 70px 0 0 0;
@@ -2267,7 +2274,7 @@ video {
 	}
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 426px) {
 	.our-menu-india .image-right-top {
 		display: none;
         
@@ -2665,7 +2672,11 @@ video {
     font-weight: 800;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 426px) {
+
+    .our-blog .card-wrapper .card-container {
+        max-width: 330px;
+    }
     .our-blog .card-wrapper .card-container .card .description h2 {
         font-size: 30px;
         padding-bottom: 5px;
