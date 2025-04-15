@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Banners on Tiffin Master</title>
-    <link>http://localhost:1313/banner/</link>
+    <link>https://tiffinmaster.org/banner/</link>
     <description>Recent content in Banners on Tiffin Master</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2024 09:56:06 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/banner/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tiffinmaster.org/banner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Banner 3</title>
-      <link>http://localhost:1313/banner/banner-3/</link>
+      <link>https://tiffinmaster.org/banner/banner-3/</link>
       <pubDate>Wed, 11 Dec 2024 09:56:06 +0530</pubDate>
-      <guid>http://localhost:1313/banner/banner-3/</guid>
+      <guid>https://tiffinmaster.org/banner/banner-3/</guid>
       <description></description>
     </item>
     <item>
       <title>Banner 2</title>
-      <link>http://localhost:1313/banner/banner-2/</link>
+      <link>https://tiffinmaster.org/banner/banner-2/</link>
       <pubDate>Wed, 11 Dec 2024 09:55:53 +0530</pubDate>
-      <guid>http://localhost:1313/banner/banner-2/</guid>
+      <guid>https://tiffinmaster.org/banner/banner-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Banner 1</title>
-      <link>http://localhost:1313/banner/banner-1/</link>
+      <link>https://tiffinmaster.org/banner/banner-1/</link>
       <pubDate>Wed, 11 Dec 2024 09:55:32 +0530</pubDate>
-      <guid>http://localhost:1313/banner/banner-1/</guid>
+      <guid>https://tiffinmaster.org/banner/banner-1/</guid>
       <description></description>
     </item>
   </channel>
