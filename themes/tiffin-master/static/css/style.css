@@ -508,105 +508,106 @@ video {
 
 ****/
 
-
-.oman-banner__div .banner-img img{
+.omanLandingPg {
     position: relative;
+}
+.omanLandingPg .bannerSec{
     width: 100%;
-    height: 100vh;
+    min-height: 100dvh;
+    position: relative;
+    
+}
+.omanLandingPg .bannerSec .bannerImg{
+    position: absolute;
+    min-height: 100dvh;
+    display: flex;
+}
+.omanLandingPg .bannerSec .bannerImg img{
+    width: 100%;
     object-fit: cover;
 }
-
-.oman-banner__div .banner-img span{
+.omanLandingPg .bannerSec .bannerImg span{
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: 100dvh;
     background: radial-gradient(rgba(0, 0, 0, 0.9) 15%, rgba(124, 108, 1, 0.2));
 }
-
-.oman-banner__div .container-fluid {
-    position: relative;
-    width: 100%;
+.omanLandingPg .bannerSec .bannerContent{
+    min-height: 100dvh;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
-
-.oman-banner__div .container-fluid img{
-    height: 400px;
-    z-index: 2;
-    top: 550px;
-    border: 11px solid #c99800;
-}
-
-.oman-banner__div .container-fluid .flexing__div {
-    position: absolute;
+.omanLandingPg .bannerSec .bannerContent .bannerText{
     display: flex;
-    min-height: 100vh;
     justify-content: center;
-    text-align: center;
-    padding-top: 220px;
-    z-index: 2;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1500px;
+    padding-inline:20px ;
 }
-
-.oman-banner__div .container-fluid .flexing__div .banner__heading {
+.omanLandingPg .bannerSec .bannerContent .bannerText .heading{
     color: rgb(255, 255, 255);
     font-size: 65px;
     margin-bottom: 1rem;
+    text-align: center;
 }
-
-.oman-banner__div .container-fluid .flexing__div .banner__sub__heading {
+.omanLandingPg .bannerSec .bannerContent .bannerText .subHeading{
     color: rgb(255, 255, 255);
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     line-height: 35px;
     font-weight: 500;
     letter-spacing: 2px;
+    text-align: center;
+    z-index: 1;
 }
-.oman-banner__div .container-fluid .flexing__div img{
-    margin-top: 50px;
+
+.omanLandingPg .bannerSec .bannerSubImg{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    bottom: 200px;
+    
+}
+.omanLandingPg .bannerSec .bannerSubImg img{
+    position: absolute;
+    height: 400px;
+    z-index: 2;
+    border: 11px solid #c99800;
+    -ms-transform-origin-y: 150%;
+}
+
+@media (max-width: 1025px) {
+    .omanLandingPg .bannerSec .bannerContent .bannerText{
+        max-width: 1000px;
+    }
 }
 
 @media (max-width: 769px) {
-    .oman-banner__div .container-fluid .flexing__div {
-        display: block;
-        min-height: 80vh;
-        padding-top: 80px;
-    }
-    .oman-banner__div {
-        padding-top: 8rem;
+
+    .omanLandingPg .bannerSec .bannerContent .bannerText{
+        max-width: 600px;
     }
 
-    .oman-banner__div .container-fluid .flexing__div .banner__sub__heading {
-        padding-inline: 40px;
+    .omanLandingPg .bannerSec .bannerSubImg {
+        bottom: 150px;
     }
 }
-@media  screen and (max-width: 600px){
-    .oman-banner__div .container-fluid img{
+@media  screen and (max-width: 640px){
+    .omanLandingPg .bannerSec .bannerSubImg {
         display: none;
+    }
+}
+@media  screen and (max-width: 426px){
+    .omanLandingPg .bannerSec .bannerContent .bannerText{
+        margin-top: 80px;
     }
 }
 
 @media  screen and (max-width: 321px){
-    .oman-banner__div .container-fluid .flexing__div {
-        padding: 0 2rem;
-        background: radial-gradient(rgba(0, 0, 0, 0.7) 15%, rgba(124, 108, 1, 0.2));
-    }
-
-
-    .oman-banner__div .container-fluid .flexing__div .banner__heading {
-        font-size: 40px;
-        padding-top: 60px;
-    }
-
-    .oman-banner__div .container-fluid .flexing__div .banner__sub__heading {
-        font-size: 17px;
-        line-height: 30px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        padding-inline: 0;
-    }
+    
 }
 
 /*** 
@@ -1434,7 +1435,7 @@ video {
 
 .about-us {
     position: relative;
-    padding: 200px 0 100px 0;
+    padding: 350px 0 100px 0;
     background: #edf6ec url(/images/icons/transparent-image-6.png) -100px 20% no-repeat;
 }
 
@@ -1525,9 +1526,35 @@ video {
     -moz-transform: rotate(-15deg);
 }
 
-@media (max-width:321px) {
+@media (max-width:768px) {
+    .sec-title h2{
+        margin-top: 150px;
+    }
+    .about-us {
+        padding: 500px 0 100px 0;
+    }
+}
+
+@media (max-width:640px) {
+    .about-us {
+        padding: 200px 0 100px 0;
+    }
+
+}
+
+@media (max-width:376px) {
     .about-us {
         padding: 70px 0 0 0;
+    }
+    .sec-title h2{
+        margin-top: 50px;
+    }
+
+    .omanLandingPg .bannerSec .bannerContent .bannerText .heading {
+        font-size: 45px;
+    }
+    .omanLandingPg .bannerSec .bannerContent .bannerText .subHeading {
+        font-size: 20px;
     }
 }
 
