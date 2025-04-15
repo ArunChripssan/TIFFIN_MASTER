@@ -483,6 +483,16 @@ video {
 	}
 }
 
+@media screen and (max-width:426px){
+    .india-banner__div .flexing__div {
+        padding: 0;
+    }
+    .india-banner__div .flexing__div .video__div {
+		padding-top: 0;
+	}
+
+}
+
 @media screen and (max-width:321px){
     .india-banner__div .flexing__div .video__div {
         display: none;
@@ -2151,18 +2161,21 @@ video {
 
 }
 
+
+
+@media  screen and (max-width: 376px) {
+
+    .our-menu-oman .image-right-top {
+        display: none;
+    }
+    
+}
+
 @media  screen and (max-width: 321px) {
 
     .our-menu-oman {
         padding: 70px 0 0 0;
     }
-
-	.our-menu-oman .image-right-top {
-		display: none;
-	}
-	.our-menu-india .image-right-top {
-		display: none;
-	}
 }
 /*** 
 
@@ -2307,7 +2320,14 @@ video {
 	}
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 426px) {
+	.our-menu-india .image-right-top {
+		display: none;
+        
+	}
+    
+}
+@media screen and (max-width: 376px) {
 	.our-menu-india .image-right-top {
 		display: none;
         
@@ -2703,6 +2723,11 @@ video {
 .our-blog .card-wrapper .card-container .card .description p {
     font-size: 18px;
     font-weight: 800;
+}
+@media  screen and (max-width: 426px) {
+    .our-blog .card-wrapper .card-container {
+        max-width: 300px;
+    }
 }
 
 @media screen and (max-width: 321px) {
